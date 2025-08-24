@@ -1,0 +1,187 @@
+/* Basic Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Header & Hero Section */
+#hero {
+    background: #333;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero .subheadline {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #ff6347;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #ff4500;
+}
+
+/* Sections */
+section {
+    padding: 4rem 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+/* Problems, Services, Why Us, Portfolio, Pricing, FAQ */
+.problem-items, .service-items, .why-us-items, .portfolio-items, .pricing-items, .faq-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.problem-item, .service-item, .why-us-item, .portfolio-item, .pricing-item, .faq-item {
+    background: #fff;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex-basis: calc(33.333% - 1rem);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.pricing-item {
+    text-align: center;
+}
+
+.pricing-item .price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.pricing-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.pricing-item ul li {
+    margin-bottom: 0.5rem;
+}
+
+.custom-quote {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* About Us */
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-photo {
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+}
+
+.contact-form {
+    margin-top: 2rem;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-info {
+    margin-top: 2rem;
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left, .footer-right {
+    flex-basis: 48%;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a, .footer-contact a {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #555;
+}
